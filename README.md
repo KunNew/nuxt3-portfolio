@@ -3,7 +3,7 @@
 ### Built with
 
 <p align="center">
-    <img width="200" src="/profile.jpeg">
+    <img width="200" src="./public/profile.jpeg">
 </p>
 
 # Nuxt 3 Minimal Starter
