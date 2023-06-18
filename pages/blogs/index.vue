@@ -35,6 +35,9 @@ const formatedData = computed(() => {
           :published="post.published"
         />
       </template>
+      <template v-if="!formatedData.length > 0">
+        <BlogEmpty />
+      </template>
     </div>
   </div>
 </template>
