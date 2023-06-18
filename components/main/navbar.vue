@@ -1,5 +1,10 @@
 <script setup>
 import { Icon } from "#components";
+
+const setColorTheme = (newTheme) => {
+  console.log(newTheme);
+  useColorMode().preference = newTheme;
+};
 </script>
 <template>
   <div class="py-5 border-b font-semibold">
@@ -11,17 +16,34 @@ import { Icon } from "#components";
           >Pheak <span class="text-sky-700">Dev <Icon name="🚀" /> </span
         ></NuxtLink>
       </div>
-      <ul class="flex items-center text-sm sm:text-lg space-x-3 sm:space-x-6">
-        <li>
-          <NuxtLink to="/blogs"> Blogs </NuxtLink>
-        </li>
-        <!-- <li>
+      <nav class="flex items-center">
+        <ul class="flex items-center text-sm sm:text-lg space-x-3 sm:space-x-6">
+          <li>
+            <NuxtLink to="/blogs"> Blogs </NuxtLink>
+          </li>
+          <!-- <li>
           <NuxtLink to="/categories"> Categories </NuxtLink>
         </li> -->
-        <li>
-          <NuxtLink to="/about"> About </NuxtLink>
-        </li>
-      </ul>
+          <li>
+            <NuxtLink to="/about"> About </NuxtLink>
+          </li>
+        </ul>
+        <!-- <button
+          class="font-semibold ml-4 rounded-lg text-sm p-2.5 hover:bg-gray-100"
+          @click="
+            setColorTheme($colorMode.preference == 'dark' ? 'light' : 'dark')
+          "
+        >
+          <Icon
+            :name="
+              $colorMode.preference == 'light'
+                ? 'fa6-regular:moon'
+                : 'fa6-regular:sun'
+            "
+            size="20"
+          />
+        </button> -->
+      </nav>
     </div>
   </div>
 </template>
