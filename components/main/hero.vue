@@ -8,7 +8,7 @@ import { Icon } from "#components";
         <h1
           class="text-black font-semibold leading-tight text-4xl md:text-5xl mb-6"
         >
-          Welcome To <span class="text-sky-600">Pheak Dev</span>
+          Welcome To <span class="text-sky-600">Pheak Blog</span>
         </h1>
 
         <p class="text-black/80">

@@ -48,7 +48,7 @@
           </div>
         </div>
         <h3 class="text-base sm:text-3xl font-semibold pb-6 sm:pb-12">
-          Web Developer at
+          I'm a Developer at
           <span class="text-orange-500 font-bold">Rabbit Technology</span>
         </h3>
         <p>

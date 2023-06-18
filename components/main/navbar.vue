@@ -13,7 +13,7 @@ const setColorTheme = (newTheme) => {
     >
       <div class="text-lg sm:text-2xl font-extrabold text-gray-800">
         <NuxtLink to="/"
-          >Pheak <span class="text-sky-700">Dev <Icon name="🚀" /> </span
+          >Pheak <span class="text-sky-700">Blog <Icon name="🚀" /> </span
         ></NuxtLink>
       </div>
       <nav class="flex items-center">
@@ -21,9 +21,9 @@ const setColorTheme = (newTheme) => {
           <li>
             <NuxtLink to="/blogs"> Blogs </NuxtLink>
           </li>
-          <!-- <li>
-          <NuxtLink to="/categories"> Categories </NuxtLink>
-        </li> -->
+          <li>
+            <NuxtLink to="/categories"> Categories </NuxtLink>
+          </li>
           <li>
             <NuxtLink to="/about"> About </NuxtLink>
           </li>
