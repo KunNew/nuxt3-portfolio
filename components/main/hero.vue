@@ -15,9 +15,12 @@ import { Icon } from "#components";
           Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt JS,
           Related Articles, Tips, Learning resources and more.
         </p>
-        <div class="py-3">
-          <button
+        <div class="py-3 flex">
+          <NuxtLink
+            to="https://drive.google.com/file/d/14QFr1d_R7OG3iztBoatCs8TZqYqZXNPP/view?usp=sharing"
+            target="_blank"
             class="bg-sky-600 flex items-center text-white font-bold text-sm rounded py-2 px-8 hover:rotate-2"
+            aria-label="CV"
           >
             Download CV
             <Icon
@@ -25,7 +28,7 @@ import { Icon } from "#components";
               class="ml-2"
               size="20"
             />
-          </button>
+          </NuxtLink>
         </div>
       </div>
       <div class="px-6 justify-self-center">
